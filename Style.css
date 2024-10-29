@@ -1,0 +1,122 @@
+.intro-section {
+    background-color: #1a1a1a;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .product-name {
+    background: linear-gradient(to right, #0d6efd, #20c997);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .price-value {
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  .price-label {
+    color: #6c757d;
+    font-size: 1.2rem;
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+  }
+  .icon-box {
+    font-size: 2.5rem;
+    color: #0d6efd;
+    margin-bottom: 1.5rem;
+  }
+  .feature-heading {
+    color: #0d6efd;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .feature-text {
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  /* About Section */
+  .about-section {
+    background-color: #0d6efd;
+    color: white;
+  }
+  .about-info {
+    padding: 5rem;
+  }
+  .about-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  /* Products Section */
+  .product-section {
+    padding: 2rem 0;
+    background-color: white;
+  }
+  .section-heading {
+    color: #20c997;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-card {
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  .product-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .light-card {
+    background-color: #c1c7ce;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .dark-card {
+    background-color: #0d6efd;
+    color: white;
+    height: 105%;
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+  
+  .product-model {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-price {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .product-card img {
+    max-width: 120px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .dark-card .text-content {
+    margin-right: auto;
+  }
+  
+  .dark-card img {
+    margin-left: auto;
+  }  
